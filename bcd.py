@@ -1,13 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
-from imblearn.over_sampling import SMOTE
 
 def main():
 
